@@ -1,0 +1,3 @@
+# Commented line
+removable cdrom "image1 with spaces.iso"
+removable cdrom image2.iso # comment goes here

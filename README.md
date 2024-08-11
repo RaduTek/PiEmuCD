@@ -17,7 +17,7 @@ PiEmuCD is a Python script that uses the Linux USB Gadget kernel modules to turn
     -   Create new partition, exFAT for the rest of the SD card -> this partition is called the **image store**.
 -   Edit files from boot partition
     -   Add `dtoverlay=dwc2` to `config.txt`
-    -   From `cmdline.txt` emove `quiet` and `init=/usr/lib/raspberrypi-sys-mods/firstboot` to prevent the OS from resizing the root partition on first boot
+    -   From `cmdline.txt` remove `quiet` and `init=/usr/lib/raspberrypi-sys-mods/firstboot` to prevent the OS from resizing the root partition on first boot
 
 2. **Configure the Raspberry Pi**
 
